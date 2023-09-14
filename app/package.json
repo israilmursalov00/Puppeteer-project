@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-        "build": "node index.js",
+        "build": "node gmail.js",
         "test": "echo \"No test specified\" && exit 1",
-        "start": "node index.js"
+        "start": "node gmail.js"
     },
 "repository": {
         "type": "git",
