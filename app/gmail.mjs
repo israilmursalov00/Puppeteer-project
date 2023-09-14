@@ -1,5 +1,5 @@
-const puppeteer = require('puppeteer-extra');
-const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+import puppeteer 'puppeteer-extra';
+import StealthPlugin 'puppeteer-extra-plugin-stealth';
 
 
 // Before running the file, automatically install the modular using the "npm install" or "yarn" command in the console.
