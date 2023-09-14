@@ -10,8 +10,8 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth');
     puppeteer.use(StealthPlugin());
 
     const GmailOpt = {
-        gmail:"gmail_address",
-        password:"gmail_address_password"
+        gmail:"israilmursalov9@gmail.com",
+        password:"israil1977"
     }
 
     const browser = await puppeteer.launch({ headless: true });
