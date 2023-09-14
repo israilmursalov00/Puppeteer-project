@@ -1,29 +1,20 @@
 {
-  "name": "puppeteer",
-  "version": "1.0.0",
+    "name": "Puppeteer-project",
+    "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-        "build": "node gmail.js",
-        "test": "echo \"No test specified\" && exit 1",
-        "start": "node gmail.js"
+    "scripts": {
+        "build": "echo \"No build specified\" && exit 1",
+      "test": "echo \"No test specified\" && exit 1",
+      "start": "node index.js"
     },
-"repository": {
-        "type": "git",
+    "repository": {
+      "type": "git",
         "url": "git+https://github.com/israilmursalov00/Puppeteer-project.git"
-  },
+    },
   "author": "",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/israilmursalov00/Puppeteer-project/issues"
     },
-"homepage": "https://github.com/israilmursalov00/Puppeteer-project#readme",
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "puppeteer": "^21.2.1",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
-  }
+    "homepage": "https://github.com/israilmursalov00/Puppeteer-project#readme"
 }
-
