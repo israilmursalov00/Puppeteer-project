@@ -1,5 +1,5 @@
-import puppeteer from 'puppeteer-extra';
-import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 
 
 // Before running the file, automatically install the modular using the "npm install" or "yarn" command in the console.
@@ -14,7 +14,7 @@ import StealthPlugin from 'puppeteer-extra-plugin-stealth';
         password:"gmail_address_password"
     }
 
-    const browser = await puppeteer.launch({ headless: false, executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'});
+    const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
 
     await page.goto('https://mail.google.com', { waitUntil: 'networkidle2' });
