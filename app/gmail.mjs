@@ -1,5 +1,5 @@
-import puppeteer 'puppeteer-extra';
-import StealthPlugin 'puppeteer-extra-plugin-stealth';
+import puppeteer from 'puppeteer-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 
 
 // Before running the file, automatically install the modular using the "npm install" or "yarn" command in the console.
