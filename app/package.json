@@ -4,8 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "echo \"No build specified\" && exit 1",
+        "test": "echo \"No test specified\" && exit 1",
+        "start": "node index.js"
+    },
+"repository": {
+        "type": "git",
+        "url": "git+https://github.com/israilmursalov00/Puppeteer-project.git"
   },
+  "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/israilmursalov00/Puppeteer-project/issues"
+    },
+"homepage": "https://github.com/israilmursalov00/Puppeteer-project#readme",
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -14,3 +26,4 @@
     "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
+
